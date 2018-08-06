@@ -1,0 +1,138 @@
+::selection {
+    color: red;
+    background: yellow;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.header, .footer {
+	padding: 50px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.header {
+	/*position: sticky;*/
+	height: 20px;
+	top: 0;
+	display: inline-block;
+	background: linear-gradient(lightpink, #fde7f9);
+}
+
+.logo h1 {
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+.logo img {
+	margin-top: -30px;
+	margin-left: -30px;
+}
+
+.header .logo {
+	float: left;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.footer {
+	background: linear-gradient(#fde7f9, lightpink);
+}
+
+.content {
+	width: 100%;
+	padding: 10px 10px;
+	background-color: #fde7f9;
+}
+
+div.container {
+	display: inline-block;
+}
+
+.container li {
+	display: inline-block;
+	margin: 0 auto;
+	bottom: 0;
+	right: 0;
+	position: relative;
+}
+
+/*.container a {
+	margin: 0 auto;
+	padding: 12px;
+	background-color: lightpink;
+}*/
+
+div.balls p.single {
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 1px 6.5px 1px 6.5px;
+	background-color: lightgrey;
+	margin: 1px;
+}
+
+div.balls p.double {
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 1px 2px 1px 2px;
+	background-color: lightgrey;
+	margin: 1px;
+}
+
+div.balls p.normal {
+	background-color: yellow;
+}
+
+div.balls p.special {
+	background-color: lightgreen;
+}
+
+h2 {
+	margin-top: 90px;
+}
+
+.nav_menu {
+	position: relative;
+}
+
+.nav_menu li {
+	display: inline-block;
+	float: right;
+	right: 0;
+}
+
+.nav_menu li a {
+	background-color: #fde7f9;
+	padding: 10px;
+	margin: 0 auto;
+	bottom: 0;
+	right: 0;
+	position: relative;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+.nav_menu li a:hover {
+	background-color: white;/*#fde7f9*/
+	padding: 10px;
+	margin: 0 auto;
+	bottom: 0;
+	right: 0;
+	position: relative;
+	text-decoration: none;
+}
+
+#play {
+	margin-top: 20px;
+}
+
+.spacer {
+    width: 100%;
+    height: 95px;
+}
+
