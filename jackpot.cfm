@@ -71,8 +71,8 @@
 
 				<cfset winStr = structNew() >
 				win_numbers array:
-				<cfset win_numbers = structKeyArray(objSelections) />
-				<!--- <cfset win_numbers = [2, 15, 6, 18, 9, 40, 32, 10] /> --->
+				<!--- <cfset win_numbers = structKeyArray(objSelections) /> --->
+				<cfset win_numbers = [2, 15, 6, 18, 9, 40, 32, 10] />
 				<cfset winList = arrayToList(win_numbers) />
 				<!--- <cfdump var="#win_numbers#" /> --->
 				<cfset n = 0 >
